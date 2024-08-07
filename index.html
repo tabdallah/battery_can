@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CAN Signal Values</title>
+</head>
+<body>
+    <table>
+        {% for signal, value in signal_values.items() %}
+        <tr>
+            <td>{{ signal }}</td>
+            <td>{{ value }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
